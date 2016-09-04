@@ -1,29 +1,4 @@
-﻿
-Skip to content
-This repository
 
-    Pull requests
-    Issues
-    Gist
-
-    @revcozmo
-
-1
-0
-
-    7
-
-revcozmo/Golang-ChatRoom forked from dyzdyz010/Golang-ChatRoom
-Code
-Pull requests 0
-Wiki
-Pulse
-Graphs
-Settings
-Golang-ChatRoom/server/server.go
-7ff6906 on May 23, 2013
-@dyzdyz010 dyzdyz010 First commit.
-92 lines (80 sloc) 1.85 KB
 package main
 
 import (
@@ -116,7 +91,4 @@ func disconnect(conn net.Conn, name string) {
 	}
 }
 
-    Contact GitHub API Training Shop Blog About 
-
-    © 2016 GitHub, Inc. Terms Privacy Security Status Help 
-
+ 
