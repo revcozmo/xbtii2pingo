@@ -1,29 +1,5 @@
-﻿
-Skip to content
-This repository
 
-    Pull requests
-    Issues
-    Gist
 
-    @revcozmo
-
-1
-0
-
-    7
-
-revcozmo/Golang-ChatRoom forked from dyzdyz010/Golang-ChatRoom
-Code
-Pull requests 0
-Wiki
-Pulse
-Graphs
-Settings
-Golang-ChatRoom/client/client.go
-7ff6906 on May 23, 2013
-@dyzdyz010 dyzdyz010 First commit.
-64 lines (54 sloc) 1.11 KB
 package main
 
 import (
@@ -87,8 +63,4 @@ func read(conn net.Conn) {
 		fmt.Println(string(readStr[:length]))
 	}
 }
-
-    Contact GitHub API Training Shop Blog About 
-
-    © 2016 GitHub, Inc. Terms Privacy Security Status Help 
 
